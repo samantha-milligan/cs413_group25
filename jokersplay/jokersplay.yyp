@@ -24,6 +24,7 @@
     {"id":{"name":"spr_jack_club","path":"sprites/spr_jack_club/spr_jack_club.yy",},"order":10,},
     {"id":{"name":"spr_queen_diamond","path":"sprites/spr_queen_diamond/spr_queen_diamond.yy",},"order":7,},
     {"id":{"name":"rm_rules","path":"rooms/rm_rules/rm_rules.yy",},"order":4,},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},"order":6,},
     {"id":{"name":"spr_king_club","path":"sprites/spr_king_club/spr_king_club.yy",},"order":5,},
     {"id":{"name":"spr_joker","path":"sprites/spr_joker/spr_joker.yy",},"order":0,},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":0,},
