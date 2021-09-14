@@ -1,5 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-// Repeats game
+// Click to title screen, starts new game
 room_goto(rm_title);
