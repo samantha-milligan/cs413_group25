@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 63,
   "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"399916bf-3140-4f7c-967d-e05228e559c1","path":"sprites/spr_jack_club/spr_jack_club.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"399916bf-3140-4f7c-967d-e05228e559c1","path":"sprites/spr_jack_club/spr_jack_club.yy",},"LayerId":{"name":"ad6ecbd4-9783-461b-b2bb-52d2adeb3ab3","path":"sprites/spr_jack_club/spr_jack_club.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_jack_club","path":"sprites/spr_jack_club/spr_jack_club.yy",},"resourceVersion":"1.0","name":"399916bf-3140-4f7c-967d-e05228e559c1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6ae9c8db-9de9-4199-a58c-fcf566c2e47d","path":"sprites/spr_jack_club/spr_jack_club.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6ae9c8db-9de9-4199-a58c-fcf566c2e47d","path":"sprites/spr_jack_club/spr_jack_club.yy",},"LayerId":{"name":"88cb4624-3c7e-4190-affb-0e296560619f","path":"sprites/spr_jack_club/spr_jack_club.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_jack_club","path":"sprites/spr_jack_club/spr_jack_club.yy",},"resourceVersion":"1.0","name":"6ae9c8db-9de9-4199-a58c-fcf566c2e47d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_jack_club","path":"sprites/spr_jack_club/spr_jack_club.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a5e447e1-c699-4288-9427-3893bb134964","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"399916bf-3140-4f7c-967d-e05228e559c1","path":"sprites/spr_jack_club/spr_jack_club.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dd65504c-aff1-4eb3-81bb-41ff54a90108","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6ae9c8db-9de9-4199-a58c-fcf566c2e47d","path":"sprites/spr_jack_club/spr_jack_club.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ad6ecbd4-9783-461b-b2bb-52d2adeb3ab3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"88cb4624-3c7e-4190-affb-0e296560619f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
