@@ -1,4 +1,8 @@
- var lyr_instances = layer_get_id("Instances");
+global.select_number = 0;
+global.first_card = [];
+
+
+var lyr_instances = layer_get_id("Instances");
  
  var padding = 50;
  
@@ -19,3 +23,4 @@
 	}
 
  }
+ 
