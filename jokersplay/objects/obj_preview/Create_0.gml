@@ -1,4 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Display preview screen for 15 seconds
 alarm[0] = 15;
-
