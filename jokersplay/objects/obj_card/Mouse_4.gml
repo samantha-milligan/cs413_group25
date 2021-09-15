@@ -24,7 +24,7 @@ if (flipped == false && global.select_number < 2){
 		else{
 			// If no match, flip cards back down
 			// Add timer to view cards before flip
-			alarm[0] = 3;
+			alarm[0] = room_speed * 1;
 			// TODO: first card's object flipped = false
 		}
 		global.select_number = 0;
