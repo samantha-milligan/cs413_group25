@@ -17,7 +17,7 @@ if (flipped == false && global.select_number < 2){
 			// If joker, automatically end game
 			if (sprite_object == spr_joker){
 				global.first_card = "";
-				room_goto(rm_score);
+				alarm[1] = room_speed * 1;
 			}
 			global.first_card = "";
 		}
