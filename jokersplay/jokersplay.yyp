@@ -2,7 +2,6 @@
   "resources": [
     {"id":{"name":"spr_king_diamond","path":"sprites/spr_king_diamond/spr_king_diamond.yy",},"order":3,},
     {"id":{"name":"spr_face_down","path":"sprites/spr_face_down/spr_face_down.yy",},"order":4,},
-    {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},"order":6,},
     {"id":{"name":"spr_king_heart","path":"sprites/spr_king_heart/spr_king_heart.yy",},"order":2,},
     {"id":{"name":"spr_score","path":"sprites/spr_score/spr_score.yy",},"order":19,},
     {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},"order":3,},

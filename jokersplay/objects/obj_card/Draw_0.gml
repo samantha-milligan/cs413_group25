@@ -1,8 +1,6 @@
-// Display specfic sprite depending on flipped status
-
+// Display corect sprite depending on flipped status
 if (flipped == true){
-	sprite_name = "spr_" + value + "_" + suit;
-	sprite = asset_get_index(sprite_name);
+	sprite = sprite_object
 } 
 else{
 	sprite = spr_face_down;

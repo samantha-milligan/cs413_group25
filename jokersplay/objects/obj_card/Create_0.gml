@@ -1,5 +1,3 @@
-// Initialize cards to face down
-
-flipped = false;
-value = "null";
-suit = "null";
+// Initialize cards to face down after preview
+flipped = true;
+alarm[0] = 5;

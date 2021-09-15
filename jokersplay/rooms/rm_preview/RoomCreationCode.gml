@@ -1,8 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Initializes board
 
-//global.select_number = 0;
-//global.first_card = [];
+global.select_number = 0;
+global.first_card = "";
 
 jackclubcount = 0;
 jackdiamondcount = 0;
@@ -24,7 +23,7 @@ var lyr_instances = layer_get_id("Instances");
 filled = false;
 randomize(); 
 rand = irandom(12); 
-
+sprite = spr_face_down;
 
 for(var i = 0; i < 5;i++)
 {	
@@ -40,7 +39,8 @@ for(var i = 0; i < 5;i++)
 				
 					jackclubcount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_jack_club);
+					sprite = spr_jack_club;
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -58,7 +58,8 @@ for(var i = 0; i < 5;i++)
 				
 					jackdiamondcount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_jack_diamond);
+					sprite = spr_jack_diamond;
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -76,7 +77,8 @@ for(var i = 0; i < 5;i++)
 				
 					jackspadecount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_jack_spade);
+					sprite = spr_jack_spade;
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -94,7 +96,8 @@ for(var i = 0; i < 5;i++)
 				
 					jackheartcount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_jack_heart);
+					sprite = spr_jack_heart
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -112,7 +115,8 @@ for(var i = 0; i < 5;i++)
 				
 					kingclubcount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_king_club);
+					sprite = spr_king_club;
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -130,7 +134,8 @@ for(var i = 0; i < 5;i++)
 				
 					kingdiamondcount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_king_diamond);
+					sprite = spr_king_diamond;
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -148,7 +153,8 @@ for(var i = 0; i < 5;i++)
 				
 					kingspadecount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_king_spade);
+					sprite = spr_king_spade;
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -166,7 +172,8 @@ for(var i = 0; i < 5;i++)
 				
 					kingheartcount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_king_heart);
+					sprite = spr_king_heart;
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -184,7 +191,8 @@ for(var i = 0; i < 5;i++)
 				
 					queenclubcount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_queen_club);
+					sprite = spr_queen_club;
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -202,7 +210,8 @@ for(var i = 0; i < 5;i++)
 				
 					queendiamondcount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_queen_diamond);
+					sprite = spr_queen_diamond;
+					object_set_sprite(obj_card, sprite);
 					;
 				}
 				else 
@@ -220,7 +229,8 @@ for(var i = 0; i < 5;i++)
 				
 					queenspadecount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_queen_spade);
+					sprite = spr_queen_spade;
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -238,7 +248,8 @@ for(var i = 0; i < 5;i++)
 				 
 					queenheartcount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_queen_heart);
+					sprite = spr_queen_heart;
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -256,7 +267,8 @@ for(var i = 0; i < 5;i++)
 				 
 					jokercount++;
 					filled = true;
-					object_set_sprite(obj_card, spr_joker);
+					sprite = spr_joker;
+					object_set_sprite(obj_card, sprite);
 				
 				}
 				else 
@@ -272,6 +284,7 @@ for(var i = 0; i < 5;i++)
 		randomize();
 		rand = irandom(12);
 		filled = false;
+		card.sprite_object = sprite;
 	}
 }
 time = 300;
