@@ -2,6 +2,7 @@
 
 global.select_number = 0;
 global.first_card = "";
+global.score = 0;
 
 jackclubcount = 0;
 jackdiamondcount = 0;
