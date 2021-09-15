@@ -1,2 +1,2 @@
 // Click to preview screen
-room_goto(rm_preview);
+room_goto(rm_grid);

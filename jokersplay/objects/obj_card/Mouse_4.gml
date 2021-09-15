@@ -1,6 +1,7 @@
 // Flips cards depending on correct match
 
-// Checks if card is not flipped and selection does not exceed 2
+// Checks if card is not flipped
+// Can only select two cards at a time
 if (flipped == false && global.select_number < 2){
 	flipped = true;
 	global.select_number++;
@@ -24,7 +25,6 @@ if (flipped == false && global.select_number < 2){
 			// If no match, flip cards back down
 			// Add timer to view cards before flip
 			alarm[0] = 3;
-			flipped = false; // this is the second card
 			// TODO: first card's object flipped = false
 		}
 		global.select_number = 0;
