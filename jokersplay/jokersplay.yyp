@@ -3,6 +3,7 @@
     {"id":{"name":"spr_king_diamond","path":"sprites/spr_king_diamond/spr_king_diamond.yy",},"order":3,},
     {"id":{"name":"spr_face_down","path":"sprites/spr_face_down/spr_face_down.yy",},"order":4,},
     {"id":{"name":"spr_king_heart","path":"sprites/spr_king_heart/spr_king_heart.yy",},"order":2,},
+    {"id":{"name":"obj_score_keeper","path":"objects/obj_score_keeper/obj_score_keeper.yy",},"order":8,},
     {"id":{"name":"font_large_droid","path":"fonts/font_large_droid/font_large_droid.yy",},"order":0,},
     {"id":{"name":"spr_score","path":"sprites/spr_score/spr_score.yy",},"order":19,},
     {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},"order":3,},
@@ -71,7 +72,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.574",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "jokersplay",
