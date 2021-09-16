@@ -41,8 +41,8 @@ for(var i = 0; i < 5;i++)
 					jackclubcount++;
 					filled = true;
 					sprite = spr_jack_club;
-					object_set_sprite(obj_card, sprite);
-				
+					cardInstance = object_set_sprite(obj_card, sprite);
+					
 				}
 				else 
 				{
@@ -280,12 +280,18 @@ for(var i = 0; i < 5;i++)
 				}
 			}
 		}
-		var card = instance_create_layer(padding+j*(padding+card_width),
-		padding+i*(padding+card_width),lyr_instances,obj_card);
+		var _x = padding+j*(padding+card_width);
+		var _y = padding+i*(padding+card_width);
+		var card = instance_create_layer(_x-600,_y,lyr_instances,obj_card);
 		randomize();
 		rand = irandom(12);
 		filled = false;
 		card.sprite_object = sprite;
+		with(card)
+		{
+			TweenEasyMove(_x-600, _y, _x, _y, i*32+j, 60, EaseInCubic);
+			// TODO make the cards spin while moving
+		}
 	}
 }
 time = 300;
