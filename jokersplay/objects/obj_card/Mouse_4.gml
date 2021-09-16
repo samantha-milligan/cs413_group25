@@ -15,23 +15,27 @@ if (flipped == false && global.select_number < 2){
 	}
 	// If second card, check match
 	else{
-		// If joker, automatically end game
-		if (sprite_object == spr_joker){
-			global.first_card = [];
-			global.score = 0;
-			alarm[1] = room_speed * 1;
-		}
 		// If match, reset first card (keep flipped)
-		else if (global.first_card.cardSprite == self.cardSprite){
+		if (global.first_card.cardSprite == self.cardSprite){
 			global.score ++;		
+			
+			
+			// If joker, automatically end game
+			if (sprite_object == spr_joker){
+				global.first_card = [];
+				global.score = 0;
+				alarm[1] = room_speed * 1;
+			}
+			
 			// Reset after second selection
 			global.first_card = [];
 			global.select_number = 0;
+			
 		}
 		else{
 			// If no match, flip cards back down
 			// Add timer to view cards before flip
-			alarm[2] = room_speed * 2; 
+			alarm[2] = room_speed * 1; 
 			// TODO: first card's object flipped = false
 		}
 	}
