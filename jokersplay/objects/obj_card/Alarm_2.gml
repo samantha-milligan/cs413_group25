@@ -4,5 +4,5 @@ global.first_card.flipped = false; // flip first card
 
 		
 // Reset after second selection
-global.first_card = [];
+global.first_card = "";
 global.select_number = 0;
