@@ -4,9 +4,9 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 draw_set_font(font_large_droid);
-draw_text_color(x + 10, y + 20, "Objective:", c_red, c_red, c_red, c_red, 1 );
+draw_text_color(x + 150, y + 80, "Objective:", c_green, c_green, c_green, c_green, 1 );
 
 draw_set_font(font_small_droid);
-draw_text(x + 10, y + 90, "Match as many cards in 30 seconds\nby both suit and value as you can\nbefore time runs out for points.");
+draw_text(x + 20, y + 150, "Match as many cards in 30 seconds\nby both suit and value as you can\nbefore time runs out for points.");
 
-draw_text_color(x + 10, y + 200, "If you match a pair of Jokers,\nthat's game over and 0 points.",  c_red, c_red, c_red, c_red, 1 );
+draw_text_color(x + 30, y + 280, "If you match a pair of Jokers,\nthat's game over and 0 points.",  c_green, c_green, c_green, c_green, 1 );

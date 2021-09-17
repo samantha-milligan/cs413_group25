@@ -4,4 +4,4 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 draw_set_font(font_large_droid);
-draw_text_color(x, y, "Matches: " + string(global.score), c_red, c_red, c_red, c_red, 1 );
+draw_text_color(180, 410, "Score:" + string(global.score), c_green, c_green, c_green, c_green, 1 );
