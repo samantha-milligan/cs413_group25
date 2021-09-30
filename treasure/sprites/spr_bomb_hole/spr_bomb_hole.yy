@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 16,
-  "bbox_right": 42,
-  "bbox_top": 20,
-  "bbox_bottom": 40,
+  "bbox_right": 46,
+  "bbox_top": 17,
+  "bbox_bottom": 48,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f8a74def-7c5b-41ac-918c-e918bd55016b","path":"sprites/spr_treasure/spr_treasure.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f8a74def-7c5b-41ac-918c-e918bd55016b","path":"sprites/spr_treasure/spr_treasure.yy",},"LayerId":{"name":"f611a396-09de-4c4a-a6f0-1cfa63923760","path":"sprites/spr_treasure/spr_treasure.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_treasure","path":"sprites/spr_treasure/spr_treasure.yy",},"resourceVersion":"1.0","name":"f8a74def-7c5b-41ac-918c-e918bd55016b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"492ac0dd-65e9-44c9-890b-05311fbeeec7","path":"sprites/spr_bomb_hole/spr_bomb_hole.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"492ac0dd-65e9-44c9-890b-05311fbeeec7","path":"sprites/spr_bomb_hole/spr_bomb_hole.yy",},"LayerId":{"name":"47b695f5-418f-4e80-ac06-e070f3527b9c","path":"sprites/spr_bomb_hole/spr_bomb_hole.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bomb_hole","path":"sprites/spr_bomb_hole/spr_bomb_hole.yy",},"resourceVersion":"1.0","name":"492ac0dd-65e9-44c9-890b-05311fbeeec7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_treasure","path":"sprites/spr_treasure/spr_treasure.yy",},
+    "spriteId": {"name":"spr_bomb_hole","path":"sprites/spr_bomb_hole/spr_bomb_hole.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 2.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"580868e3-0fc9-4cd2-82e0-87d9d997d33b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8a74def-7c5b-41ac-918c-e918bd55016b","path":"sprites/spr_treasure/spr_treasure.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9be0a2dc-2468-4086-a23d-ab460edf7624","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"492ac0dd-65e9-44c9-890b-05311fbeeec7","path":"sprites/spr_bomb_hole/spr_bomb_hole.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_treasure","path":"sprites/spr_treasure/spr_treasure.yy",},
+    "parent": {"name":"spr_bomb_hole","path":"sprites/spr_bomb_hole/spr_bomb_hole.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_treasure",
+    "name": "spr_bomb_hole",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f611a396-09de-4c4a-a6f0-1cfa63923760","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"47b695f5-418f-4e80-ac06-e070f3527b9c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_treasure",
+  "name": "spr_bomb_hole",
   "tags": [],
   "resourceType": "GMSprite",
 }

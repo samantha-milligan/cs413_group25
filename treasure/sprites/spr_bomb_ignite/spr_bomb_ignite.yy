@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 16,
-  "bbox_right": 42,
-  "bbox_top": 20,
-  "bbox_bottom": 40,
+  "bbox_left": 9,
+  "bbox_right": 56,
+  "bbox_top": 12,
+  "bbox_bottom": 59,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f8a74def-7c5b-41ac-918c-e918bd55016b","path":"sprites/spr_treasure/spr_treasure.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f8a74def-7c5b-41ac-918c-e918bd55016b","path":"sprites/spr_treasure/spr_treasure.yy",},"LayerId":{"name":"f611a396-09de-4c4a-a6f0-1cfa63923760","path":"sprites/spr_treasure/spr_treasure.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_treasure","path":"sprites/spr_treasure/spr_treasure.yy",},"resourceVersion":"1.0","name":"f8a74def-7c5b-41ac-918c-e918bd55016b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e86bd582-a16e-48fb-a8c8-7030effd3a4a","path":"sprites/spr_bomb_ignite/spr_bomb_ignite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e86bd582-a16e-48fb-a8c8-7030effd3a4a","path":"sprites/spr_bomb_ignite/spr_bomb_ignite.yy",},"LayerId":{"name":"114d9f64-a2c3-4c22-abcf-b28a5c1eaf75","path":"sprites/spr_bomb_ignite/spr_bomb_ignite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bomb_ignite","path":"sprites/spr_bomb_ignite/spr_bomb_ignite.yy",},"resourceVersion":"1.0","name":"e86bd582-a16e-48fb-a8c8-7030effd3a4a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_treasure","path":"sprites/spr_treasure/spr_treasure.yy",},
+    "spriteId": {"name":"spr_bomb_ignite","path":"sprites/spr_bomb_ignite/spr_bomb_ignite.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 2.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"580868e3-0fc9-4cd2-82e0-87d9d997d33b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8a74def-7c5b-41ac-918c-e918bd55016b","path":"sprites/spr_treasure/spr_treasure.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"57068a70-964a-4e19-992a-34b4491a5b7b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e86bd582-a16e-48fb-a8c8-7030effd3a4a","path":"sprites/spr_bomb_ignite/spr_bomb_ignite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_treasure","path":"sprites/spr_treasure/spr_treasure.yy",},
+    "parent": {"name":"spr_bomb_ignite","path":"sprites/spr_bomb_ignite/spr_bomb_ignite.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_treasure",
+    "name": "spr_bomb_ignite",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f611a396-09de-4c4a-a6f0-1cfa63923760","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"114d9f64-a2c3-4c22-abcf-b28a5c1eaf75","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_treasure",
+  "name": "spr_bomb_ignite",
   "tags": [],
   "resourceType": "GMSprite",
 }
