@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_bomb",
-    "path": "sprites/spr_bomb/spr_bomb.yy",
+    "name": "spr_tree2",
+    "path": "sprites/spr_tree2/spr_tree2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_ground",
+    "path": "objects/obj_ground/obj_ground.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bomb",
+  "name": "obj_tree2",
   "tags": [],
   "resourceType": "GMObject",
 }

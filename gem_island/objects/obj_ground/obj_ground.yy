@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_bomb",
-    "path": "sprites/spr_bomb/spr_bomb.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -28,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bomb",
+  "name": "obj_ground",
   "tags": [],
   "resourceType": "GMObject",
 }

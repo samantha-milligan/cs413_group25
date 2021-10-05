@@ -3,33 +3,45 @@
 if( keyboard_check( vk_left ) )
 	{
 		
-		x -= 2;
+		if( !place_meeting(x - 2,y, obj_ground))
+		{
+			 x -= 2;
+		}
 		sprite_index = spr_pirate_left;
 		
 	}
 
-	else if(keyboard_check( vk_right ) )
+else if(keyboard_check( vk_right ) )
+{
+	if( !place_meeting(x + 2,y, obj_ground))
 	{
-		
-		 x += 2;
-	   sprite_index = spr_pirate_right;
-	   
+			x += 2;
 	}
-
-	if( keyboard_check( vk_up ) )
-	{
 		
-		y -= 2;
-	   sprite_index = spr_pirate_back;
+	sprite_index = spr_pirate_right;
+	   
+}
+
+if( keyboard_check( vk_up ) )
+{
+		
+	if( !place_meeting(x,y - 2, obj_ground))
+	{
+			y -= 2;
+	}
+	sprite_index = spr_pirate_back;
 	   
    
-	}
+}
 
-	if( keyboard_check(vk_down) )
+if( keyboard_check(vk_down) )
+{
+		
+	if( !place_meeting(x,y + 2, obj_ground))
 	{
-		
-		y += 2;
-		sprite_index = spr_pirate_forward;
-		
+			y += 2;
 	}
+	sprite_index = spr_pirate_forward;
+		
+}
 

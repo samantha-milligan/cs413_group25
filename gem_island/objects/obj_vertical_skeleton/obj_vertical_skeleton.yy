@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bomb",
-    "path": "sprites/spr_bomb/spr_bomb.yy",
+    "name": "spr_skeleton_forward",
+    "path": "sprites/spr_skeleton_forward/spr_skeleton_forward.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bomb",
+  "name": "obj_vertical_skeleton",
   "tags": [],
   "resourceType": "GMObject",
 }
