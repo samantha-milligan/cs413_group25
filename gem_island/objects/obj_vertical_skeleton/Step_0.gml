@@ -8,6 +8,7 @@ if(move_back == false)
 		if(y == target_start)
 		{
 			move_back = true;
+			sprite_index = spr_skeleton_back;
 		}
 	}
 }
@@ -18,10 +19,8 @@ if(move_back == true)
 		y-=2;
 		if(y == target_end)
 		{
-			move_back = false;	
+			move_back = false;
+			sprite_index = spr_skeleton_forward;
 		}
 	}
 }
-
-
-
