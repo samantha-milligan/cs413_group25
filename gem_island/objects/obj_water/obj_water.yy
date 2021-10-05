@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
-  "solid": true,
+  "spriteId": {
+    "name": "spr_water",
+    "path": "sprites/spr_water/spr_water.yy",
+  },
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_ground",
+    "path": "objects/obj_ground/obj_ground.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ground",
+  "name": "obj_water",
   "tags": [],
   "resourceType": "GMObject",
 }
