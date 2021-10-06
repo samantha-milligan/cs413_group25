@@ -1,3 +1,4 @@
 // After certain time, pirate can take treasure
 
-instance_change(obj_treasure_empty, true);
+sprite_index = spr_treasure_open;
+global.treasure_score += 1;

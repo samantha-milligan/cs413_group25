@@ -1,6 +1,9 @@
 // Pirate collects treasure upon collision
 
-global.treasure_score += 1;
 
-sprite_index = spr_treasure_open;
-alarm[0] = 1;
+if(sprite_index == spr_treasure)
+{
+	alarm[0] = 1;
+    alarm[1] = 100;
+}
+
