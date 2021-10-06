@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_treasure_empty",
-    "path": "sprites/spr_treasure_empty/spr_treasure_empty.yy",
+    "name": "spr_X",
+    "path": "sprites/spr_X/spr_X.yy",
   },
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_ground",
-    "path": "objects/obj_ground/obj_ground.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_pirate","path":"objects/obj_pirate/obj_pirate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_treasure_empty",
+  "name": "obj_X",
   "tags": [],
   "resourceType": "GMObject",
 }
