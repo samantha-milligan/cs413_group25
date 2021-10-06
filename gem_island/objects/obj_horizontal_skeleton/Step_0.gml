@@ -3,6 +3,7 @@
 
 if(move_back == false)
 {
+
 	if(x!= target_start)
 	{
 		x+=2;
