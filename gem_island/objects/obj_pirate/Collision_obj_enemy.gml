@@ -1,12 +1,5 @@
-// When pirate collides with skeletons, pirate dies (flickers)
+// When pirate collides with skeletons, pirate dies
 
-global.lives -= 1;
-
-if(global.lives > 0){
-	sprite_index = spr_pirate_dead;
-	alarm[0] = 1;
-}
-
-else{
-	room_goto(rm_lose);
-}
+sprite_index = spr_pirate_dead;
+alarm[1] = 30;
+alarm[0] = 30;
