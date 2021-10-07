@@ -1,2 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Pirate dies
+with(obj_pirate){
+	sprite_index = spr_pirate_dead;
+}
+
+// Check lives
+alarm[0] = 5;

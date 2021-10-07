@@ -1,10 +1,5 @@
-// Bomb ignites, pirate loses a life
-
+// Bomb ignites
 sprite_index = spr_bomb_ignite;
-
-// Check lives > 0
-global.lives-=1;
-
-if(global.lives == 0){
-	room_goto(rm_lose);
+with(obj_pirate){
+	sprite_index = spr_pirate_dead;
 }

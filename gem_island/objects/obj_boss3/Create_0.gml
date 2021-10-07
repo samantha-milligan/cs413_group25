@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Default position and direction
 target_start = x + 96;
 target_end = x - 36;
 move_back = false;

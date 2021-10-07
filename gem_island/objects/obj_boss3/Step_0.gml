@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Controls how skeleton moves
+
 switch(move)
 {
 	case "forward":
@@ -8,8 +8,12 @@ switch(move)
 		if(place_meeting(x,y,obj_pirate))
 		{
 			move = "back";
-			alarm[0] = 30;
 			sprite_index = spr_skeleton_left;
+			
+			with(obj_pirate){
+				sprite_index = spr_pirate_forward;
+			}
+			
 			break;
 		}
 		else
@@ -19,7 +23,6 @@ switch(move)
 		
 		if(x == target_start)
 		{
-			//move_back = true;
 			move = "back"
 			sprite_index = spr_skeleton_left;
 			break;
@@ -37,8 +40,12 @@ switch(move)
 		if(place_meeting(x,y,obj_pirate))
 		{
 			move = "forward";
-			alarm[0] = 30;
 			sprite_index = spr_skeleton_right;
+			
+			with(obj_pirate){
+				sprite_index = spr_pirate_forward;
+			}
+			
 			break;
 		}
 		else
@@ -48,7 +55,6 @@ switch(move)
 		
 		if(x == target_end)
 		{
-			//move_back = false;
 			move = "forward";
 			sprite_index = spr_skeleton_right;
 			break;
@@ -62,27 +68,3 @@ switch(move)
 	break;
 		
 }
-//if(move_back == false)
-//{
-//	if(x!= target_start)
-//	{
-//		x+=2;
-//		if(x == target_start)
-//		{
-//			move_back = true;
-//			sprite_index = spr_skeleton_left;
-//		}
-//	}
-//}
-//if(move_back == true)
-//{
-//	if(x!= target_end)
-//	{
-//		x-=2;
-//		if(x == target_end)
-//		{
-//			move_back = false;	
-//			sprite_index = spr_skeleton_right;
-//		}
-//	}
-//}
