@@ -16,4 +16,4 @@ The pirate and skeleton collisions appear to linger depending on both objects' m
 
 * Ethan Donnelly: Created player, boat, trees, rocks, and skeleton sprites. Made objext player and skeleton movement. Created tilemaps and play area of the game.
 *	Samantha Milligan: Created individual sprites (bomb, treasure, etc.). Assisted with object movement and tile map. Developed and modified pirate collisions. Created rooms and title/rules/ending screens.
-* Eddie Lipan: 
+* Eddie Lipan: Bug fixes, Sprite edits.
