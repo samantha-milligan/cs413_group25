@@ -32,3 +32,4 @@ if( keyboard_check(vk_nokey))
 {
 		sprite_index = spr_player_still;
 }
+
