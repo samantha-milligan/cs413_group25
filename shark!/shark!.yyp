@@ -32,6 +32,7 @@
     {"id":{"name":"spr_tree1","path":"sprites/spr_tree1/spr_tree1.yy",},"order":7,},
     {"id":{"name":"obj_life_saver","path":"objects/obj_life_saver/obj_life_saver.yy",},"order":8,},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"order":5,},
+    {"id":{"name":"obj_shark","path":"objects/obj_shark/obj_shark.yy",},"order":14,},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":12,},
     {"id":{"name":"obj_rules","path":"objects/obj_rules/obj_rules.yy",},"order":1,},
     {"id":{"name":"spr_tree3","path":"sprites/spr_tree3/spr_tree3.yy",},"order":9,},

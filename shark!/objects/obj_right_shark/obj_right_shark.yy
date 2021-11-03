@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_shark",
+    "path": "objects/obj_shark/obj_shark.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
