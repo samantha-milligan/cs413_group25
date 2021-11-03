@@ -14,6 +14,6 @@ None
 
 ##	Credits
 
-* Ethan Donnelly:
+* Ethan Donnelly: Created the shark and player sprites. Created ocean, created movements of sharks and player. Polished various visual elements.
 * Samantha Milligan: Created title, rules, and end screens. Created initial sprites to develop the tilemap (shipwreck, life savers, shoreline, etc.). Added     events to detect player's movement.
 * Eddie Lipan: Created and implemented audio files in game.
