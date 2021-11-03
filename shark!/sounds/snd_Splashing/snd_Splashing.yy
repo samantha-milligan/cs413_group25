@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_Drowning.mp3",
-  "duration": 4.310204,
+  "soundFile": "snd_Splashing.mp3",
+  "duration": 3.186939,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_Drowning",
+  "name": "snd_Splashing",
   "tags": [],
   "resourceType": "GMSound",
 }

@@ -5,6 +5,7 @@ if( keyboard_check( vk_left )){
 		x -= 1;
 	}
 	sprite_index = spr_player_left;
+	audio_resume_sound(snd_Splashing);
 }
 
 if ( keyboard_check( vk_right )){
@@ -12,6 +13,7 @@ if ( keyboard_check( vk_right )){
 		x += 1;
 	}
 	sprite_index = spr_player_right;
+	audio_resume_sound(snd_Splashing);
 }
 
 if( keyboard_check( vk_up )){
@@ -19,6 +21,7 @@ if( keyboard_check( vk_up )){
 		y -= 1;
 	}
 	sprite_index = spr_player_up;
+	audio_resume_sound(snd_Splashing);
 }
 
 if( keyboard_check(vk_down)){
@@ -26,10 +29,11 @@ if( keyboard_check(vk_down)){
 		y += 1;
 	}
 	sprite_index = spr_player_down;
+	audio_resume_sound(snd_Splashing);
 }
 
 if( keyboard_check(vk_nokey))
 {
 		sprite_index = spr_player_still;
+		audio_pause_sound(snd_Splashing);
 }
-
