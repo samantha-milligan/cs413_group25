@@ -9,7 +9,7 @@
     {"id":{"name":"spr_player_still","path":"sprites/spr_player_still/spr_player_still.yy",},"order":17,},
     {"id":{"name":"spr_win_screen","path":"sprites/spr_win_screen/spr_win_screen.yy",},"order":25,},
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},"order":11,},
-    {"id":{"name":"spr_title_screen","path":"sprites/spr_title_screen/spr_title_screen.yy",},"order":26,},
+    {"id":{"name":"spr_title_text","path":"sprites/spr_title_text/spr_title_text.yy",},"order":26,},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"order":0,},
     {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},"order":13,},
     {"id":{"name":"spr_tree2","path":"sprites/spr_tree2/spr_tree2.yy",},"order":8,},
