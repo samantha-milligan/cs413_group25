@@ -15,5 +15,5 @@
 ##	Credits
 
 * Ethan Donnelly:
-* Samantha Milligan: 
-* Eddie Lipan:
+* Samantha Milligan:
+* Eddie Lipan: Created and implemented audio files in game.
