@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 7,
-  "bbox_right": 120,
-  "bbox_top": 26,
-  "bbox_bottom": 85,
+  "bbox_left": 0,
+  "bbox_right": 0,
+  "bbox_top": 0,
+  "bbox_bottom": 0,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
-  "height": 128,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"42e174a0-c1b1-4772-8236-72043dd3c196","path":"sprites/spr_ship1/spr_ship1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"42e174a0-c1b1-4772-8236-72043dd3c196","path":"sprites/spr_ship1/spr_ship1.yy",},"LayerId":{"name":"b50759cd-7147-43f9-bd6b-da7a184cb6c3","path":"sprites/spr_ship1/spr_ship1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ship1","path":"sprites/spr_ship1/spr_ship1.yy",},"resourceVersion":"1.0","name":"42e174a0-c1b1-4772-8236-72043dd3c196","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8c8117e7-3dbe-407b-9708-8b53e746ffe9","path":"sprites/spr_alien1/spr_alien1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8c8117e7-3dbe-407b-9708-8b53e746ffe9","path":"sprites/spr_alien1/spr_alien1.yy",},"LayerId":{"name":"36240ebe-0d62-48a1-a78a-33cbe28dc773","path":"sprites/spr_alien1/spr_alien1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_alien1","path":"sprites/spr_alien1/spr_alien1.yy",},"resourceVersion":"1.0","name":"8c8117e7-3dbe-407b-9708-8b53e746ffe9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ship1","path":"sprites/spr_ship1/spr_ship1.yy",},
+    "spriteId": {"name":"spr_alien1","path":"sprites/spr_alien1/spr_alien1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"bb3eef6c-ef9c-4fae-933a-3a6e5dba34de","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"42e174a0-c1b1-4772-8236-72043dd3c196","path":"sprites/spr_ship1/spr_ship1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fe7d70a4-c22d-4522-986d-f8032cebc29c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c8117e7-3dbe-407b-9708-8b53e746ffe9","path":"sprites/spr_alien1/spr_alien1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ship1","path":"sprites/spr_ship1/spr_ship1.yy",},
+    "parent": {"name":"spr_alien1","path":"sprites/spr_alien1/spr_alien1.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_ship1",
+    "name": "spr_alien1",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b50759cd-7147-43f9-bd6b-da7a184cb6c3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"36240ebe-0d62-48a1-a78a-33cbe28dc773","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_ship1",
+  "name": "spr_alien1",
   "tags": [],
   "resourceType": "GMSprite",
 }
