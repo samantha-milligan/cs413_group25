@@ -1,13 +1,17 @@
 {
   "resources": [
     {"id":{"name":"spr_ship1","path":"sprites/spr_ship1/spr_ship1.yy",},"order":6,},
+    {"id":{"name":"sq_shooting_stars","path":"sequences/sq_shooting_stars/sq_shooting_stars.yy",},"order":0,},
+    {"id":{"name":"sq_asteroids","path":"sequences/sq_asteroids/sq_asteroids.yy",},"order":1,},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":3,},
     {"id":{"name":"spr_sun","path":"sprites/spr_sun/spr_sun.yy",},"order":4,},
     {"id":{"name":"spr_earth","path":"sprites/spr_earth/spr_earth.yy",},"order":1,},
+    {"id":{"name":"spr_asteroid3","path":"sprites/spr_asteroid3/spr_asteroid3.yy",},"order":14,},
     {"id":{"name":"tile_earth","path":"tilesets/tile_earth/tile_earth.yy",},"order":2,},
     {"id":{"name":"spr_mars","path":"sprites/spr_mars/spr_mars.yy",},"order":3,},
+    {"id":{"name":"spr_shooting_star","path":"sprites/spr_shooting_star/spr_shooting_star.yy",},"order":13,},
     {"id":{"name":"spr_ship2","path":"sprites/spr_ship2/spr_ship2.yy",},"order":7,},
-    {"id":{"name":"spr_alien1","path":"sprites/spr_alien1/spr_alien1.yy",},"order":11,},
+    {"id":{"name":"spr_alien","path":"sprites/spr_alien/spr_alien.yy",},"order":11,},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":1,},
     {"id":{"name":"rm_mars","path":"rooms/rm_mars/rm_mars.yy",},"order":6,},
     {"id":{"name":"tile_space","path":"tilesets/tile_space/tile_space.yy",},"order":0,},
@@ -68,7 +72,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "mars",
