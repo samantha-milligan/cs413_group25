@@ -8,7 +8,6 @@
     {"id":{"name":"spr_ship1","path":"sprites/spr_ship1/spr_ship1.yy",},"order":6,},
     {"id":{"name":"rm_around_earth","path":"rooms/rm_around_earth/rm_around_earth.yy",},"order":8,},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":3,},
-    {"id":{"name":"sq_mars_landing","path":"sequences/sq_mars_landing/sq_mars_landing.yy",},"order":2,},
     {"id":{"name":"spr_sun","path":"sprites/spr_sun/spr_sun.yy",},"order":4,},
     {"id":{"name":"spr_earth","path":"sprites/spr_earth/spr_earth.yy",},"order":1,},
     {"id":{"name":"rm_mars_landing","path":"rooms/rm_mars_landing/rm_mars_landing.yy",},"order":12,},
@@ -31,6 +30,7 @@
     {"id":{"name":"rm_rules","path":"rooms/rm_rules/rm_rules.yy",},"order":2,},
     {"id":{"name":"obj_asteroid1","path":"objects/obj_asteroid1/obj_asteroid1.yy",},"order":6,},
     {"id":{"name":"spr_space","path":"sprites/spr_space/spr_space.yy",},"order":0,},
+    {"id":{"name":"sq_mars_landing","path":"sequences/sq_mars_landing/sq_mars_landing.yy",},"order":4,},
     {"id":{"name":"sq_around_earth","path":"sequences/sq_around_earth/sq_around_earth.yy",},"order":0,},
     {"id":{"name":"spr_asteroid2","path":"sprites/spr_asteroid2/spr_asteroid2.yy",},"order":10,},
     {"id":{"name":"spr_asteroid1","path":"sprites/spr_asteroid1/spr_asteroid1.yy",},"order":9,},
@@ -46,6 +46,7 @@
     {"id":{"name":"spr_astronaut","path":"sprites/spr_astronaut/spr_astronaut.yy",},"order":5,},
     {"id":{"name":"obj_space","path":"objects/obj_space/obj_space.yy",},"order":12,},
     {"id":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},"order":10,},
+    {"id":{"name":"spr_mars_land","path":"sprites/spr_mars_land/spr_mars_land.yy",},"order":19,},
     {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},"order":4,},
   ],
   "Options": [
