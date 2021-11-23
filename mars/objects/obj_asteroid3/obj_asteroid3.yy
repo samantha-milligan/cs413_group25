@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_asteroid3",
+    "path": "sprites/spr_asteroid3/spr_asteroid3.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_asteroid",
+    "path": "objects/obj_asteroid/obj_asteroid.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ship",
+  "name": "obj_asteroid3",
   "tags": [],
   "resourceType": "GMObject",
 }

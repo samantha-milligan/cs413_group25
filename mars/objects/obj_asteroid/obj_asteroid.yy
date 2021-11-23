@@ -25,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ship",
+  "name": "obj_asteroid",
   "tags": [],
   "resourceType": "GMObject",
 }
