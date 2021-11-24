@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_starting_area_1",
-    "path": "sprites/spr_starting_area_1/spr_starting_area_1.yy",
+    "name": "spr_starting_area",
+    "path": "sprites/spr_starting_area/spr_starting_area.yy",
   },
   "tileWidth": 36,
   "tileHeight": 36,
