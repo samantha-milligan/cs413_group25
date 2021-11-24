@@ -1,1 +1,1 @@
-room_goto(rm_space);
+room_goto(rm_asteroid);

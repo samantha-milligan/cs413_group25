@@ -1,2 +1,4 @@
 // Create random asteroid
-image_index = irandom(3);
+image = choose(spr_asteroid1, spr_asteroid2, spr_asteroid3);
+sprite_index = image;
+hspeed = -3;
