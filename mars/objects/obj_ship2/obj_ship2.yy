@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_ship2",
-    "path": "sprites/spr_ship2/spr_ship2.yy",
+    "name": "spr_ship2_still",
+    "path": "sprites/spr_ship2_still/spr_ship2_still.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_ship",
-    "path": "objects/obj_ship/obj_ship.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
