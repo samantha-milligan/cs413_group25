@@ -1,2 +1,2 @@
 // Ship moves up
-y += 5;
+y -= 5;

@@ -1,7 +1,5 @@
 // Destory asteroid
-with(obj_asteroid){
-	instance_destroy(id);
-}
+instance_destroy(other);
 
 // Ship flickers
 if(global.sprite == spr_ship1){
@@ -15,4 +13,4 @@ if(global.sprite == spr_ship3){
 }
 
 // Alarm set to check lives and change sprite
-alarm[0] = 20;
+alarm[0] = 80;

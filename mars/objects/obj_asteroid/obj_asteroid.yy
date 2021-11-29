@@ -3,7 +3,7 @@
     "name": "spr_asteroid1",
     "path": "sprites/spr_asteroid1/spr_asteroid1.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
