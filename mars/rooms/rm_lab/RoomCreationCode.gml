@@ -1,0 +1,1 @@
+global.lives = 3;
