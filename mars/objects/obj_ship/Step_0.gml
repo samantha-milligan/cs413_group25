@@ -1,6 +1,6 @@
 // Create asteroids
 
-if (irandom(40) == 1) {
+if (irandom(15) == 1) {
 	instance_create_layer(room_width,
 		random(room_height),
 		"Instances",
