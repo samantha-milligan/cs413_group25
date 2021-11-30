@@ -15,9 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_computer","path":"objects/obj_computer/obj_computer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-4.5,"scaleY":4.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":64.0,"resourceVersion":"1.0","name":"inst_790AC8E7","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_ship1","path":"objects/obj_ship1/obj_ship1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.2,"scaleY":1.2,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":192.0,"resourceVersion":"1.0","name":"inst_1B846E9E","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_ship2","path":"objects/obj_ship2/obj_ship2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.2,"scaleY":1.2,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":120.0,"resourceVersion":"1.0","name":"inst_E9898D3","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_ship3","path":"objects/obj_ship3/obj_ship3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.7,"scaleY":1.2,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":120.0,"resourceVersion":"1.0","name":"inst_7455DE17","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_astronaut","path":"objects/obj_astronaut/obj_astronaut.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":320.0,"resourceVersion":"1.0","name":"inst_6CA7C119","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_poster","path":"sprites/spr_poster/spr_poster.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":32.0,"resourceVersion":"1.0","name":"graphic_96BB49D","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -53,10 +51,8 @@
   "creationCodeFile": "${project_dir}/rooms/rm_lab/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1B846E9E","path":"rooms/rm_lab/rm_lab.yy",},
     {"name":"inst_790AC8E7","path":"rooms/rm_lab/rm_lab.yy",},
-    {"name":"inst_E9898D3","path":"rooms/rm_lab/rm_lab.yy",},
-    {"name":"inst_7455DE17","path":"rooms/rm_lab/rm_lab.yy",},
+    {"name":"inst_6CA7C119","path":"rooms/rm_lab/rm_lab.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
