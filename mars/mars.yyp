@@ -40,6 +40,7 @@
     {"id":{"name":"spr_alien_forward","path":"sprites/spr_alien_forward/spr_alien_forward.yy",},"order":11,},
     {"id":{"name":"spr_alienship1","path":"sprites/spr_alienship1/spr_alienship1.yy",},"order":28,},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":0,},
+    {"id":{"name":"spr_mars_background","path":"sprites/spr_mars_background/spr_mars_background.yy",},"order":46,},
     {"id":{"name":"obj_alien2","path":"objects/obj_alien2/obj_alien2.yy",},"order":19,},
     {"id":{"name":"rm_mars","path":"rooms/rm_mars/rm_mars.yy",},"order":4,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":30,},
@@ -89,7 +90,7 @@
     {"id":{"name":"spr_ship3_dead","path":"sprites/spr_ship3_dead/spr_ship3_dead.yy",},"order":36,},
     {"id":{"name":"spr_ship3_still","path":"sprites/spr_ship3_still/spr_ship3_still.yy",},"order":26,},
     {"id":{"name":"spr_lab_back","path":"sprites/spr_lab_back/spr_lab_back.yy",},"order":22,},
-    {"id":{"name":"spr_mars_land","path":"sprites/spr_mars_land/spr_mars_land.yy",},"order":19,},
+    {"id":{"name":"spr_mars_landing","path":"sprites/spr_mars_landing/spr_mars_landing.yy",},"order":19,},
     {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},"order":3,},
   ],
   "Options": [
@@ -142,7 +143,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "mars",

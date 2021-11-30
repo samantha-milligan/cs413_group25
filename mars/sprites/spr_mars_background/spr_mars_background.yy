@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1365,
+  "bbox_right": 2499,
   "bbox_top": 0,
-  "bbox_bottom": 767,
+  "bbox_bottom": 299,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1366,
-  "height": 768,
+  "width": 2500,
+  "height": 300,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e4dbb9ce-1829-4afb-b788-089ba1de804f","path":"sprites/spr_mars_land/spr_mars_land.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e4dbb9ce-1829-4afb-b788-089ba1de804f","path":"sprites/spr_mars_land/spr_mars_land.yy",},"LayerId":{"name":"8b72b504-ddd7-4f57-80bb-680391c55a24","path":"sprites/spr_mars_land/spr_mars_land.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mars_land","path":"sprites/spr_mars_land/spr_mars_land.yy",},"resourceVersion":"1.0","name":"e4dbb9ce-1829-4afb-b788-089ba1de804f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"aace6582-2233-4d32-91d4-464606121fb8","path":"sprites/spr_mars_background/spr_mars_background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"aace6582-2233-4d32-91d4-464606121fb8","path":"sprites/spr_mars_background/spr_mars_background.yy",},"LayerId":{"name":"b59939b0-e0a4-433d-8d41-5306f0b5ab3d","path":"sprites/spr_mars_background/spr_mars_background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_mars_background","path":"sprites/spr_mars_background/spr_mars_background.yy",},"resourceVersion":"1.0","name":"aace6582-2233-4d32-91d4-464606121fb8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mars_land","path":"sprites/spr_mars_land/spr_mars_land.yy",},
+    "spriteId": {"name":"spr_mars_background","path":"sprites/spr_mars_background/spr_mars_background.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4f849524-6a14-40da-bd5b-df0c523c2f1d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e4dbb9ce-1829-4afb-b788-089ba1de804f","path":"sprites/spr_mars_land/spr_mars_land.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0798a17c-c62f-457d-bbb4-eb07ddca0527","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aace6582-2233-4d32-91d4-464606121fb8","path":"sprites/spr_mars_background/spr_mars_background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mars_land","path":"sprites/spr_mars_land/spr_mars_land.yy",},
+    "parent": {"name":"spr_mars_background","path":"sprites/spr_mars_background/spr_mars_background.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_mars_land",
+    "name": "spr_mars_background",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8b72b504-ddd7-4f57-80bb-680391c55a24","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b59939b0-e0a4-433d-8d41-5306f0b5ab3d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_mars_land",
+  "name": "spr_mars_background",
   "tags": [],
   "resourceType": "GMSprite",
 }
