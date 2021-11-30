@@ -4,11 +4,6 @@ key_left = keyboard_check(vk_left);
 
 hsp = (key_right - key_left) * movespeed;
 
-// Gravity
-if(vsp < 10){
-	vsp += grav;
-}
-
 // Horizontal collision
 if(hsp > 0){
 	bbox_side = bbox_right;

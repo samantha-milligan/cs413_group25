@@ -1,3 +1,2 @@
-// TODO - set in lab room, still vs animation too
-global.lives = 3;
+// Set ship sprite
 sprite_index = global.sprite;

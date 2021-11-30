@@ -1,7 +1,6 @@
 {
   "resources": [
     {"id":{"name":"spr_plasma","path":"sprites/spr_plasma/spr_plasma.yy",},"order":16,},
-    {"id":{"name":"obj_ship3","path":"objects/obj_ship3/obj_ship3.yy",},"order":16,},
     {"id":{"name":"spr_computer","path":"sprites/spr_computer/spr_computer.yy",},"order":23,},
     {"id":{"name":"rm_asteroid","path":"rooms/rm_asteroid/rm_asteroid.yy",},"order":7,},
     {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},"order":15,},
@@ -41,8 +40,6 @@
     {"id":{"name":"rm_rules","path":"rooms/rm_rules/rm_rules.yy",},"order":2,},
     {"id":{"name":"obj_computer","path":"objects/obj_computer/obj_computer.yy",},"order":13,},
     {"id":{"name":"spr_space","path":"sprites/spr_space/spr_space.yy",},"order":0,},
-    {"id":{"name":"obj_ship2","path":"objects/obj_ship2/obj_ship2.yy",},"order":15,},
-    {"id":{"name":"obj_ship1","path":"objects/obj_ship1/obj_ship1.yy",},"order":14,},
     {"id":{"name":"sq_mars_landing","path":"sequences/sq_mars_landing/sq_mars_landing.yy",},"order":4,},
     {"id":{"name":"sq_around_earth","path":"sequences/sq_around_earth/sq_around_earth.yy",},"order":0,},
     {"id":{"name":"spr_select_menu","path":"sprites/spr_select_menu/spr_select_menu.yy",},"order":37,},
