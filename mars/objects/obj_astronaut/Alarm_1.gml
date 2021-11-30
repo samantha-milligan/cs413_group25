@@ -1,4 +1,4 @@
-sprite_index = spr_astronaut_forward;
+sprite_index = spr_astronaut_still;
 
 global.health -= 25;
 if(global.health == 0){

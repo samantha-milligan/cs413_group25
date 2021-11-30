@@ -1,18 +1,33 @@
-// Controls how astronaut moves
-if(keyboard_check(vk_right)){
-	if(!place_meeting(x+1, y, tilemap)){
-		x += 1;
-	}
-	sprite_index = spr_astronaut_right;
-}
+// Controls how the astronaut moves
 
-if(keyboard_check(vk_left)){
-	if(!place_meeting(x-1, y, tilemap)){
-		x -= 1;
+if( keyboard_check( vk_left )){
+	if(!place_meeting(x-2, y, obj_ground)){
+		x -= 2;
 	}
 	sprite_index = spr_astronaut_left;
 }
 
-if(keyboard_check(vk_nokey)){
-	sprite_index = spr_astronaut_forward;
+if ( keyboard_check( vk_right )){
+	if(!place_meeting(x+2, y, obj_ground)){
+		x += 2;
+	}
+	sprite_index = spr_astronaut_right;
+}
+
+if( keyboard_check( vk_up )){
+	if(!place_meeting(x, y-2, obj_ground)){
+		y -= 2;
+	}
+	sprite_index = spr_astronaut_up;
+}
+
+if( keyboard_check(vk_down)){
+	if(!place_meeting(x, y+2, obj_ground)){
+		y += 2;
+	}
+	sprite_index = spr_astronaut_down;
+}
+
+if( keyboard_check(vk_nokey)){
+	sprite_index = spr_astronaut_still;
 }

@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_ship1",
-    "path": "sprites/spr_ship1/spr_ship1.yy",
+    "name": "spr_asteroid2",
+    "path": "sprites/spr_asteroid2/spr_asteroid2.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -23,9 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_seq_ship",
+  "name": "obj_rock2",
   "tags": [],
   "resourceType": "GMObject",
 }
