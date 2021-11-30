@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_computer",
-    "path": "sprites/spr_computer/spr_computer.yy",
+    "name": "spr_ship3_still",
+    "path": "sprites/spr_ship3_still/spr_ship3_still.yy",
   },
   "solid": false,
   "visible": true,
@@ -19,13 +19,11 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [
-    {"x":48.0,"y":95.0,},
-    {"x":81.0,"y":95.0,},
-    {"x":81.0,"y":109.0,},
-    {"x":48.0,"y":109.0,},
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_computer",
+  "name": "obj_shipselect3",
   "tags": [],
   "resourceType": "GMObject",
 }
