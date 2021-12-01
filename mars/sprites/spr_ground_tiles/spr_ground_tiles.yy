@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6c9d5f7a-c1fb-4a36-a6d4-09fc464402ba","path":"sprites/spr_crater/spr_crater.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6c9d5f7a-c1fb-4a36-a6d4-09fc464402ba","path":"sprites/spr_crater/spr_crater.yy",},"LayerId":{"name":"9c25d883-cb28-4aac-a6e5-400b295340ab","path":"sprites/spr_crater/spr_crater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_crater","path":"sprites/spr_crater/spr_crater.yy",},"resourceVersion":"1.0","name":"6c9d5f7a-c1fb-4a36-a6d4-09fc464402ba","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5942a29a-23d7-4d66-bb44-c6ab83cd8b9c","path":"sprites/spr_ground_tiles/spr_ground_tiles.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5942a29a-23d7-4d66-bb44-c6ab83cd8b9c","path":"sprites/spr_ground_tiles/spr_ground_tiles.yy",},"LayerId":{"name":"41ce4b51-4ddf-4d4f-9c03-259a25224b4a","path":"sprites/spr_ground_tiles/spr_ground_tiles.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ground_tiles","path":"sprites/spr_ground_tiles/spr_ground_tiles.yy",},"resourceVersion":"1.0","name":"5942a29a-23d7-4d66-bb44-c6ab83cd8b9c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_crater","path":"sprites/spr_crater/spr_crater.yy",},
+    "spriteId": {"name":"spr_ground_tiles","path":"sprites/spr_ground_tiles/spr_ground_tiles.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"772a0703-bc2f-4e7b-bb2b-68cf9c088991","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6c9d5f7a-c1fb-4a36-a6d4-09fc464402ba","path":"sprites/spr_crater/spr_crater.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"83902cf1-c1c3-4973-8866-c4e51a2312a4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5942a29a-23d7-4d66-bb44-c6ab83cd8b9c","path":"sprites/spr_ground_tiles/spr_ground_tiles.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_crater","path":"sprites/spr_crater/spr_crater.yy",},
+    "parent": {"name":"spr_ground_tiles","path":"sprites/spr_ground_tiles/spr_ground_tiles.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_crater",
+    "name": "spr_ground_tiles",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9c25d883-cb28-4aac-a6e5-400b295340ab","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"41ce4b51-4ddf-4d4f-9c03-259a25224b4a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_crater",
+  "name": "spr_ground_tiles",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 15,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 16,
+  "height": 16,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"993b1428-0963-4afc-8ed6-dac2216ebbd3","path":"sprites/spr_mars_dirt2/spr_mars_dirt2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"993b1428-0963-4afc-8ed6-dac2216ebbd3","path":"sprites/spr_mars_dirt2/spr_mars_dirt2.yy",},"LayerId":{"name":"e7ac85f5-12ef-4fac-8103-7b06b484e7c6","path":"sprites/spr_mars_dirt2/spr_mars_dirt2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mars_dirt2","path":"sprites/spr_mars_dirt2/spr_mars_dirt2.yy",},"resourceVersion":"1.0","name":"993b1428-0963-4afc-8ed6-dac2216ebbd3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0c5d7f4a-cfa3-4b54-b06c-66d46a4889b6","path":"sprites/spr_crater_image/spr_crater_image.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0c5d7f4a-cfa3-4b54-b06c-66d46a4889b6","path":"sprites/spr_crater_image/spr_crater_image.yy",},"LayerId":{"name":"66f36728-24de-40ab-86f7-c7c116ee43e9","path":"sprites/spr_crater_image/spr_crater_image.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_crater_image","path":"sprites/spr_crater_image/spr_crater_image.yy",},"resourceVersion":"1.0","name":"0c5d7f4a-cfa3-4b54-b06c-66d46a4889b6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mars_dirt2","path":"sprites/spr_mars_dirt2/spr_mars_dirt2.yy",},
+    "spriteId": {"name":"spr_crater_image","path":"sprites/spr_crater_image/spr_crater_image.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"391549f0-18c0-44fe-a738-8621ccd21e06","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"993b1428-0963-4afc-8ed6-dac2216ebbd3","path":"sprites/spr_mars_dirt2/spr_mars_dirt2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"96f6965c-9aeb-42c3-aab3-9e1fcafb1dfc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c5d7f4a-cfa3-4b54-b06c-66d46a4889b6","path":"sprites/spr_crater_image/spr_crater_image.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mars_dirt2","path":"sprites/spr_mars_dirt2/spr_mars_dirt2.yy",},
+    "parent": {"name":"spr_crater_image","path":"sprites/spr_crater_image/spr_crater_image.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_mars_dirt2",
+    "name": "spr_crater_image",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e7ac85f5-12ef-4fac-8103-7b06b484e7c6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"66f36728-24de-40ab-86f7-c7c116ee43e9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_mars_dirt2",
+  "name": "spr_crater_image",
   "tags": [],
   "resourceType": "GMSprite",
 }

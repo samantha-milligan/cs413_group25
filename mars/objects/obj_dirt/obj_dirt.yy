@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_mars_dirt2",
-    "path": "sprites/spr_mars_dirt2/spr_mars_dirt2.yy",
+    "name": "spr_ground_tiles",
+    "path": "sprites/spr_ground_tiles/spr_ground_tiles.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
