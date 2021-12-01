@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 21,
-  "bbox_right": 39,
-  "bbox_top": 15,
-  "bbox_bottom": 57,
+  "bbox_left": 14,
+  "bbox_right": 43,
+  "bbox_top": 10,
+  "bbox_bottom": 54,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -30,6 +30,12 @@
     {"compositeImage":{"FrameId":{"name":"f9b926bd-2277-48a7-8794-5aac42cb1903","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"f9b926bd-2277-48a7-8794-5aac42cb1903","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"LayerId":{"name":"5802d701-4423-4a4a-b2c0-b170696f1b6d","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_astronaut_left","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"resourceVersion":"1.0","name":"f9b926bd-2277-48a7-8794-5aac42cb1903","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e5510ea4-2da9-4f35-94e1-16c3a7b46ebf","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e5510ea4-2da9-4f35-94e1-16c3a7b46ebf","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"LayerId":{"name":"5802d701-4423-4a4a-b2c0-b170696f1b6d","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_astronaut_left","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"resourceVersion":"1.0","name":"e5510ea4-2da9-4f35-94e1-16c3a7b46ebf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"687c1ab6-2e10-48b4-8411-3ee0ec418069","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"687c1ab6-2e10-48b4-8411-3ee0ec418069","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"LayerId":{"name":"5802d701-4423-4a4a-b2c0-b170696f1b6d","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_astronaut_left","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"resourceVersion":"1.0","name":"687c1ab6-2e10-48b4-8411-3ee0ec418069","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_astronaut_left","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},
@@ -39,13 +45,15 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 2.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f5723249-d879-436e-b731-226ecc0e173e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"68d8c47c-ad87-473d-b8e0-eabaa5a1f20e","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ccc031c2-4753-437e-bcb0-0d99457c951c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f9b926bd-2277-48a7-8794-5aac42cb1903","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7afe13a2-16e2-4a1d-a311-967cc17a71cd","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e5510ea4-2da9-4f35-94e1-16c3a7b46ebf","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"00ceb8e0-ef16-41f0-b028-957834890cc8","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"687c1ab6-2e10-48b4-8411-3ee0ec418069","path":"sprites/spr_astronaut_left/spr_astronaut_left.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,

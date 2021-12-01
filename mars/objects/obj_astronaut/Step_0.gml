@@ -9,6 +9,7 @@ if( keyboard_check( vk_left )){
 		x -= 1;
 	}
 	sprite_index = spr_astronaut_left;
+	image_speed = 1;
 }
 
 if ( keyboard_check( vk_right )){
@@ -16,15 +17,18 @@ if ( keyboard_check( vk_right )){
 		x += 1;
 	}
 	sprite_index = spr_astronaut_right;
+	image_speed = 1;
 }
 
 if( keyboard_check(vk_nokey)){
-	sprite_index = spr_astronaut_still;
+	image_speed = 0;
 }
 
-if( keyboard_check_pressed(vk_space)){
-	ySpeed = -12;
-	sprite_index = spr_astronaut_still;
+if( keyboard_check_pressed(vk_up)){
+	if(place_meeting(x, y + 1, obj_ground)){	
+		ySpeed = -12;
+		image_speed = 0;
+	}
 }
 
 if(place_meeting(x, y + ySpeed, obj_ground)){
