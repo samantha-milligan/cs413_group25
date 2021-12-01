@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_ground_tiles",
-    "path": "sprites/spr_ground_tiles/spr_ground_tiles.yy",
+    "name": "spr_flag_scene",
+    "path": "sprites/spr_flag_scene/spr_flag_scene.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_ground",
-    "path": "objects/obj_ground/obj_ground.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_dirt",
+  "name": "obj_flag_scene",
   "tags": [],
   "resourceType": "GMObject",
 }

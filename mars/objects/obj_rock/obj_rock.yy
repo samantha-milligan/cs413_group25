@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_asteroid2",
-    "path": "sprites/spr_asteroid2/spr_asteroid2.yy",
+    "name": "spr_rock",
+    "path": "sprites/spr_rock/spr_rock.yy",
   },
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_ground",
-    "path": "objects/obj_ground/obj_ground.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rock2",
+  "name": "obj_rock",
   "tags": [],
   "resourceType": "GMObject",
 }

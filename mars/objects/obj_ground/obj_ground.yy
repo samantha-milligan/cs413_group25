@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_ground_tiles",
+    "path": "sprites/spr_ground_tiles/spr_ground_tiles.yy",
+  },
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
