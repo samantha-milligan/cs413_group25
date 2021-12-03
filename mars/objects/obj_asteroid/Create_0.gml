@@ -1,4 +1,5 @@
-// Create random asteroid
+// create random asteroid
+global.asteroid_hp = 3;
 sprite = choose(spr_asteroid1, spr_asteroid2, spr_asteroid3);
 sprite_index = sprite;
 hspeed = -9;
