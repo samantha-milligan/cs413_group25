@@ -1,6 +1,8 @@
-if( image_index > 0 && image_index < 4 )
-{
-	image_index = 4;	
-	image_speed = 0.25;
+if(sprite_index == spr_astronaut_left){
+	sprite_index = spr_astronaut_left_dead;
 }
+else{
+	sprite_index = spr_astronaut_right_dead;
+}
+
 alarm[1] = 20;

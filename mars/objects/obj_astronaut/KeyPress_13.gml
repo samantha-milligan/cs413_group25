@@ -1,2 +1,0 @@
-// Astronaut shoots laser
-

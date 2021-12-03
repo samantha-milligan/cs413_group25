@@ -1,4 +1,9 @@
-sprite_index = spr_astronaut_still;
+if(sprite_index = spr_astronaut_left_dead){
+	sprite_index = spr_astronaut_left;
+}
+else{
+	sprite_index = spr_astronaut_right;
+}
 
 global.health -= 10;
 if(global.health <= 0){
