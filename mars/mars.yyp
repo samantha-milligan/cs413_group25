@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"sq_blast_off","path":"sequences/sq_blast_off/sq_blast_off.yy",},"order":5,},
     {"id":{"name":"spr_plasma","path":"sprites/spr_plasma/spr_plasma.yy",},"order":16,},
+    {"id":{"name":"spr_lose_screen","path":"sprites/spr_lose_screen/spr_lose_screen.yy",},"order":63,},
     {"id":{"name":"obj_flag_scene","path":"objects/obj_flag_scene/obj_flag_scene.yy",},"order":38,},
     {"id":{"name":"rm_flag","path":"rooms/rm_flag/rm_flag.yy",},"order":13,},
     {"id":{"name":"spr_computer","path":"sprites/spr_computer/spr_computer.yy",},"order":23,},
