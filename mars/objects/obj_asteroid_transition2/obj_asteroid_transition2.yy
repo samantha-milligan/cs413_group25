@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_asteroid_transition",
+  "name": "obj_asteroid_transition2",
   "tags": [],
   "resourceType": "GMObject",
 }
