@@ -1,6 +1,6 @@
 sprite_index = global.sprite;
 
-global.health -= 10;
-if(global.health <= 0){
+hp -= 10;
+if(hp <= 0){
 	room_goto(rm_lose);
 }

@@ -13,4 +13,4 @@ if(global.sprite == spr_ship3){
 }
 
 // Alarm set to check lives and change sprite
-alarm[0] = 80;
+alarm[0] = 20;
