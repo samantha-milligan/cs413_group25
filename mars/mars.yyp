@@ -119,9 +119,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},
     {"roomId":{"name":"rm_ship_select","path":"rooms/rm_ship_select/rm_ship_select.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
-    {"roomId":{"name":"rm_lab","path":"rooms/rm_lab/rm_lab.yy",},},
     {"roomId":{"name":"rm_launchpad","path":"rooms/rm_launchpad/rm_launchpad.yy",},},
     {"roomId":{"name":"rm_around_earth","path":"rooms/rm_around_earth/rm_around_earth.yy",},},
     {"roomId":{"name":"rm_asteroid","path":"rooms/rm_asteroid/rm_asteroid.yy",},},
