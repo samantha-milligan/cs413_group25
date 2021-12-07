@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lab_nerd",
-    "path": "sprites/spr_lab_nerd/spr_lab_nerd.yy",
+    "name": "spr_lab_astronaut_left_still",
+    "path": "sprites/spr_lab_astronaut_left_still/spr_lab_astronaut_left_still.yy",
   },
   "solid": false,
   "visible": true,
