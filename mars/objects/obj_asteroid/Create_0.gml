@@ -1,4 +1,5 @@
 // create random asteroid
+
 asteroid_hp = irandom_range(2,16);
 
 if (asteroid_hp < 6)

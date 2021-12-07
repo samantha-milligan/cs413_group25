@@ -1,1 +1,1 @@
-room_goto(rm_mars_transition);
+room_goto(rm_upgrade);
