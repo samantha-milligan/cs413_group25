@@ -5,7 +5,7 @@ else{
 	sprite_index = spr_astronaut_right;
 }
 
-global.health -= 25;
-if(global.health <= 0){
+global.hp -= 25;
+if(global.hp <= 0){
 	room_goto(rm_lose);
 }

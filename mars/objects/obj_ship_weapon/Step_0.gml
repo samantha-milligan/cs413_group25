@@ -1,3 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-x+=10;
+if (sprite_index == spr_laser)
+{
+	x+=15;
+}
+else
+{
+	x+=10;
+}

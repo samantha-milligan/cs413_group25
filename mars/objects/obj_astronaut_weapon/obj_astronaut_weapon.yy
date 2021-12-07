@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_alien_forward",
-    "path": "sprites/spr_alien_forward/spr_alien_forward.yy",
+    "name": "spr_laser",
+    "path": "sprites/spr_laser/spr_laser.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -22,7 +22,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_alien1","path":"objects/obj_alien1/obj_alien1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_alien2","path":"objects/obj_alien2/obj_alien2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_alien1",
+  "name": "obj_astronaut_weapon",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -104,6 +104,7 @@
     {"id":{"name":"spr_ship3","path":"sprites/spr_ship3/spr_ship3.yy",},"order":8,},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"order":35,},
     {"id":{"name":"obj_astronaut","path":"objects/obj_astronaut/obj_astronaut.yy",},"order":17,},
+    {"id":{"name":"obj_astronaut_weapon","path":"objects/obj_astronaut_weapon/obj_astronaut_weapon.yy",},"order":46,},
     {"id":{"name":"rm_launchpad","path":"rooms/rm_launchpad/rm_launchpad.yy",},"order":7,},
     {"id":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"order":36,},
     {"id":{"name":"spr_upgrade_speed","path":"sprites/spr_upgrade_speed/spr_upgrade_speed.yy",},"order":70,},
@@ -171,7 +172,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "mars",

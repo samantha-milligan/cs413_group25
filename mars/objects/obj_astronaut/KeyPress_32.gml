@@ -1,6 +1,13 @@
-/// @description Fire laser(TODO)
+/// @description Fire laser
 // You can write your code in this editor
 
-
-// Astronaut needs to shoot alien1 one time
-// Astronaut needs to shoot alien2 three times
+if(sprite_index == spr_astronaut_right)
+{
+	global.facing = 1;
+	instance_create_layer(x + 12,y + 10,"Instances",obj_astronaut_weapon);
+}
+else
+{	
+	global.facing = -1;
+	instance_create_layer(x - 12,y + 10,"Instances",obj_astronaut_weapon);
+}

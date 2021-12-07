@@ -19,3 +19,4 @@ healthbar_width = 244;
 healthbar_height = 18;
 healthbar_x = (1366/2) - (healthbar_width/2);
 healthbar_y = ystart - 300;
+reloaded = true;

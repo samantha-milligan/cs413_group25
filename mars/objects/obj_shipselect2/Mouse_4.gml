@@ -6,4 +6,5 @@ global.hp_max = global.hp;
 global.speed = 7;
 global.weapon = spr_laser;
 global.damage = 1;
+randomize();
 room_goto(rm_launchpad);
