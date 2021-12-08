@@ -13,6 +13,6 @@
 
 ##	Credits
 
-* Ethan Donnelly: 
+* Ethan Donnelly: Created Upgrade Room, Difficulty room. Made sprites for spaceships and landscapes. Created Logic with spaceship and alien ship interactions. 
 * Samantha Milligan:
 * Eddie Lipan:
