@@ -16,7 +16,7 @@ if(sprite_index = spr_ship2)
 {
 	if (reloaded)
 	{
-		instance_create_layer(x + 20,y +70,"Instances",obj_ship_weapon);
+		instance_create_layer(x + 120,y +70,"Instances",obj_ship_weapon);
 		reloaded = false;
 		alarm_set(1,7)
 		audio_play_sound(snd_laser, 2, false);
