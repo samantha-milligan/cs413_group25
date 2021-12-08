@@ -18,7 +18,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_astronaut","path":"objects/obj_astronaut/obj_astronaut.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":208.0,"resourceVersion":"1.0","name":"inst_5F5CA15E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-<<<<<<< Updated upstream
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":288.0,"resourceVersion":"1.0","name":"inst_5563843C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":288.0,"resourceVersion":"1.0","name":"inst_489BFD28","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":848.0,"y":288.0,"resourceVersion":"1.0","name":"inst_68312F01","tags":[],"resourceType":"GMRInstance",},
@@ -35,13 +34,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":304.0,"resourceVersion":"1.0","name":"inst_10468B63","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":912.0,"y":304.0,"resourceVersion":"1.0","name":"inst_310B3B93","tags":[],"resourceType":"GMRInstance",},
       ],"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Crater","tags":[],"resourceType":"GMRInstanceLayer",},
-=======
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":304.0,"resourceVersion":"1.0","name":"inst_5563843C","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":304.0,"resourceVersion":"1.0","name":"inst_489BFD28","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":912.0,"y":304.0,"resourceVersion":"1.0","name":"inst_F4437BD","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1872.0,"y":304.0,"resourceVersion":"1.0","name":"inst_581E9FEE","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Crater","tags":[],"resourceType":"GMRInstanceLayer",},
->>>>>>> Stashed changes
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_alien1","path":"objects/obj_alien1/obj_alien1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":112.0,"y":144.0,"resourceVersion":"1.0","name":"inst_15E4DE68","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_alien1","path":"objects/obj_alien1/obj_alien1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":96.0,"resourceVersion":"1.0","name":"inst_8F7478F","tags":[],"resourceType":"GMRInstance",},
@@ -539,8 +531,19 @@
     {"name":"inst_6B7C993C","path":"rooms/rm_mars/rm_mars.yy",},
     {"name":"inst_5563843C","path":"rooms/rm_mars/rm_mars.yy",},
     {"name":"inst_489BFD28","path":"rooms/rm_mars/rm_mars.yy",},
+    {"name":"inst_68312F01","path":"rooms/rm_mars/rm_mars.yy",},
     {"name":"inst_F4437BD","path":"rooms/rm_mars/rm_mars.yy",},
+    {"name":"inst_39ED517D","path":"rooms/rm_mars/rm_mars.yy",},
+    {"name":"inst_2947E7B5","path":"rooms/rm_mars/rm_mars.yy",},
+    {"name":"inst_5D709D18","path":"rooms/rm_mars/rm_mars.yy",},
+    {"name":"inst_203181E3","path":"rooms/rm_mars/rm_mars.yy",},
+    {"name":"inst_69EB6FF1","path":"rooms/rm_mars/rm_mars.yy",},
+    {"name":"inst_3EDBFB2A","path":"rooms/rm_mars/rm_mars.yy",},
+    {"name":"inst_629B0276","path":"rooms/rm_mars/rm_mars.yy",},
+    {"name":"inst_2E0F82E5","path":"rooms/rm_mars/rm_mars.yy",},
     {"name":"inst_581E9FEE","path":"rooms/rm_mars/rm_mars.yy",},
+    {"name":"inst_10468B63","path":"rooms/rm_mars/rm_mars.yy",},
+    {"name":"inst_310B3B93","path":"rooms/rm_mars/rm_mars.yy",},
     {"name":"inst_5F5CA15E","path":"rooms/rm_mars/rm_mars.yy",},
     {"name":"inst_7E366475","path":"rooms/rm_mars/rm_mars.yy",},
     {"name":"inst_175CCC6B","path":"rooms/rm_mars/rm_mars.yy",},
