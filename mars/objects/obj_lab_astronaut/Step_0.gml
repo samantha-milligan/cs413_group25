@@ -16,5 +16,5 @@ if ( keyboard_check( vk_right )){
 }
 
 if( keyboard_check(vk_nokey)){
-	image_index = 2;
+	image_index = 0;
 }
