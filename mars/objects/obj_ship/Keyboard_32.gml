@@ -8,6 +8,7 @@ if(sprite_index = spr_ship1)
 		instance_create_layer(x + 100,y + 70,"Instances",obj_ship_weapon);
 		reloaded = false;
 		alarm_set(1,10)
+		audio_play_sound(snd_missile, 2, false);
 	}
 }
 
@@ -18,6 +19,7 @@ if(sprite_index = spr_ship2)
 		instance_create_layer(x + 20,y +70,"Instances",obj_ship_weapon);
 		reloaded = false;
 		alarm_set(1,7)
+		audio_play_sound(snd_laser, 2, false);
 	}
 }
 if(sprite_index = spr_ship3)

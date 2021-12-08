@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
   "preload": false,
@@ -10,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Project_31_.mp3",
+  "soundFile": "trk_Project_31_.mp3",
   "duration": 132.23764,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Project_31_",
+  "name": "trk_Project_31_",
   "tags": [],
   "resourceType": "GMSound",
 }

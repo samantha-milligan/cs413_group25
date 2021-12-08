@@ -1,6 +1,7 @@
 {
+  "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.11,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Starlight2.mp3",
-  "duration": 181.278183,
+  "soundFile": "snd_laser.wav",
+  "duration": 0.783424,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Starlight2",
+  "name": "snd_laser",
   "tags": [],
   "resourceType": "GMSound",
 }

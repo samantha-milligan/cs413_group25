@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+audio_play_sound(trk_Project_31_, 5, true);
 global.boss_ship_hp = 300;
 y_top_stop = room_height;
 y_bot_stop = -room_height;
