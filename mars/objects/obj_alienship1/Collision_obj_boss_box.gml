@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-//if(place_meeting(x, y,obj_alienship1)){
-//	instance_destroy(id);
-//}
+move_towards_point(obj_rock.x, obj_rock.y, 2);
+alarm[1] = 10;

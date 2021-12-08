@@ -148,6 +148,7 @@
     {"id":{"name":"spr_ship3_dead","path":"sprites/spr_ship3_dead/spr_ship3_dead.yy",},"order":36,},
     {"id":{"name":"spr_ship3_still","path":"sprites/spr_ship3_still/spr_ship3_still.yy",},"order":26,},
     {"id":{"name":"spr_lab_back","path":"sprites/spr_lab_back/spr_lab_back.yy",},"order":22,},
+    {"id":{"name":"rm_difficulty","path":"rooms/rm_difficulty/rm_difficulty.yy",},"order":19,},
     {"id":{"name":"spr_mars_landing","path":"sprites/spr_mars_landing/spr_mars_landing.yy",},"order":19,},
     {"id":{"name":"spr_mars_land","path":"sprites/spr_mars_land/spr_mars_land.yy",},"order":84,},
     {"id":{"name":"obj_earth_transition","path":"objects/obj_earth_transition/obj_earth_transition.yy",},"order":56,},
@@ -182,6 +183,7 @@
     {"roomId":{"name":"rm_upgrade","path":"rooms/rm_upgrade/rm_upgrade.yy",},},
     {"roomId":{"name":"rm_asteroid_boss","path":"rooms/rm_asteroid_boss/rm_asteroid_boss.yy",},},
     {"roomId":{"name":"rm_flag","path":"rooms/rm_flag/rm_flag.yy",},},
+    {"roomId":{"name":"rm_difficulty","path":"rooms/rm_difficulty/rm_difficulty.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
