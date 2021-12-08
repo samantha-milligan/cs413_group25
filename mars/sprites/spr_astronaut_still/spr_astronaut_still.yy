@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 22,
-  "bbox_right": 41,
-  "bbox_top": 14,
-  "bbox_bottom": 57,
+  "bbox_left": 16,
+  "bbox_right": 47,
+  "bbox_top": 9,
+  "bbox_bottom": 56,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"af81d984-355e-4ec6-b035-e817a9d5d551","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"af81d984-355e-4ec6-b035-e817a9d5d551","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"LayerId":{"name":"5802d701-4423-4a4a-b2c0-b170696f1b6d","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_astronaut_still","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","name":"af81d984-355e-4ec6-b035-e817a9d5d551","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f4e4941d-c11b-43e1-aa6a-bca6a86e6470","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f4e4941d-c11b-43e1-aa6a-bca6a86e6470","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"LayerId":{"name":"5802d701-4423-4a4a-b2c0-b170696f1b6d","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_astronaut_still","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","name":"f4e4941d-c11b-43e1-aa6a-bca6a86e6470","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1cd21224-0d29-4877-8a3b-047f70ce637b","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1cd21224-0d29-4877-8a3b-047f70ce637b","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"LayerId":{"name":"5802d701-4423-4a4a-b2c0-b170696f1b6d","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_astronaut_still","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","name":"1cd21224-0d29-4877-8a3b-047f70ce637b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a84656d5-a909-4695-91d2-b241977eaa26","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a84656d5-a909-4695-91d2-b241977eaa26","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"LayerId":{"name":"5802d701-4423-4a4a-b2c0-b170696f1b6d","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_astronaut_still","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","name":"a84656d5-a909-4695-91d2-b241977eaa26","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_astronaut_still","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f2963975-b052-49dd-9d70-3ed3d1610f6c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"af81d984-355e-4ec6-b035-e817a9d5d551","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"18f19a5a-6606-4cd8-88f8-7e15df48d8b9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f4e4941d-c11b-43e1-aa6a-bca6a86e6470","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d0a903d8-199b-41c0-a029-f109dbff6525","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1cd21224-0d29-4877-8a3b-047f70ce637b","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0f031897-4264-455a-abef-4ad1b9bfafb0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a84656d5-a909-4695-91d2-b241977eaa26","path":"sprites/spr_astronaut_still/spr_astronaut_still.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
