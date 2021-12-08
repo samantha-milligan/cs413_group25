@@ -59,6 +59,7 @@
     {"id":{"name":"spr_difficulty_easy","path":"sprites/spr_difficulty_easy/spr_difficulty_easy.yy",},"order":86,},
     {"id":{"name":"spr_alienship1","path":"sprites/spr_alienship1/spr_alienship1.yy",},"order":28,},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":0,},
+    {"id":{"name":"spr_lab_nerd","path":"sprites/spr_lab_nerd/spr_lab_nerd.yy",},"order":89,},
     {"id":{"name":"snd_laser","path":"sounds/snd_laser/snd_laser.yy",},"order":4,},
     {"id":{"name":"obj_boss_box","path":"objects/obj_boss_box/obj_boss_box.yy",},"order":51,},
     {"id":{"name":"spr_alien_blaster","path":"sprites/spr_alien_blaster/spr_alien_blaster.yy",},"order":71,},
