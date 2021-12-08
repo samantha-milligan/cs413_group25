@@ -13,6 +13,6 @@ The player is an astronaut on a mission to Mars. The player travels through spac
 
 ##	Credits
 
-* Ethan Donnelly: Created Upgrade Room, Difficulty room. Made sprites for spaceships and landscapes. Created Logic with spaceship and alien ship interactions. 
+* Ethan Donnelly: Created lab, upgrade, and difficulty rooms. Made sprites for spaceships, landscapes, aliens, and alien ships. Created logic with spaceship and alien ship interactions.
 * Samantha Milligan: Created the space and landing transition rooms (including end screens). Assisted with Mars tilemap and astronaut movement/collisions. Created asteroid rooms/objects and planet/space sprites.
 * Eddie Lipan:
