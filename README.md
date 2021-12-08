@@ -1,6 +1,6 @@
 #	Project	4 - Final Project
 
-##	
+##	Dinky Goes to Mars
 
 * Ethan Donnelly (5053245)
 * Samantha Milligan (5594560)
