@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.alienship_hp -= global.damage;
+global.ship1_health -= global.damage;
 instance_destroy(other);
-if(global.alienship_hp <= 0){
+if(global.ship1_health <= 0){
 	instance_destroy(id);
 }

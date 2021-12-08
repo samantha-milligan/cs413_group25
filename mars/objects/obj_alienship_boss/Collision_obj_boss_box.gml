@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-direction = irandom_range(0,359);
-speed = 2;
+move_towards_point(obj_rock.x, obj_rock.y, 2);
+alarm[0] = 10;
