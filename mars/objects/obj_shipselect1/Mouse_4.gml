@@ -9,4 +9,3 @@ global.weapon = spr_rocket;
 global.damage = 1;
 randomize();
 room_goto(rm_launchpad);
-

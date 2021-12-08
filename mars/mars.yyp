@@ -142,6 +142,7 @@
     {"id":{"name":"spr_ship3_still","path":"sprites/spr_ship3_still/spr_ship3_still.yy",},"order":26,},
     {"id":{"name":"spr_lab_back","path":"sprites/spr_lab_back/spr_lab_back.yy",},"order":22,},
     {"id":{"name":"spr_mars_landing","path":"sprites/spr_mars_landing/spr_mars_landing.yy",},"order":19,},
+    {"id":{"name":"spr_mars_land","path":"sprites/spr_mars_land/spr_mars_land.yy",},"order":84,},
     {"id":{"name":"obj_earth_transition","path":"objects/obj_earth_transition/obj_earth_transition.yy",},"order":56,},
     {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},"order":3,},
   ],
