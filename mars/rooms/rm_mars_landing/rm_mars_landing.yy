@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"assets":[
-        {"sequenceId":{"name":"sq_mars_landing","path":"sequences/sq_mars_landing/sq_mars_landing.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":224.0,"resourceVersion":"1.0","name":"graphic_65E67E5D","tags":[],"resourceType":"GMRSequenceGraphic",},
+        {"sequenceId":{"name":"sq_mars_landing","path":"sequences/sq_mars_landing/sq_mars_landing.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":224.0,"resourceVersion":"1.0","name":"graphic_65E67E5D","tags":[],"resourceType":"GMRSequenceGraphic",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Assets_3","tags":[],"resourceType":"GMRAssetLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_mars_landing","path":"sprites/spr_mars_landing/spr_mars_landing.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"graphic_7DCDC7CB","tags":[],"resourceType":"GMRSpriteGraphic",},
