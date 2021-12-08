@@ -8,6 +8,10 @@ image_speed = 1.5;
 if(image_index == 3){
 	image_index = 0;
 }
+//if(place_meeting(x,y, spr_fire))
+//{
+//	room_goto(rm_lose);	
+//}
 
 if( keyboard_check( vk_left )){
 	if(!place_meeting(x-1, y, obj_ground)){
@@ -38,6 +42,8 @@ if( keyboard_check_pressed(vk_up)){
 if(place_meeting(x, y + ySpeed, obj_ground)){
 	ySpeed = 0;
 }
+
+
 
 
 // Gravity
