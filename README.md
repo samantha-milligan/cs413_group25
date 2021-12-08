@@ -7,7 +7,7 @@
 * Eddie Lipan (005369929)
 
 ##	Instructions
-The player is an astronaut on a mission to Mars. The player travels through space fighting off aliens. Use the arrow keys to move and spacebar to shoot weapons.
+The player is an astronaut on a mission to Mars. The player travels through space fighting off aliens. Use the arrow keys to move and the spacebar to shoot weapons.
 
 ##	Known	Bugs	or	Issues
 Occasionally, the Mars room does not reset and the viewport is off.
