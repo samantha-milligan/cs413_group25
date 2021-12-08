@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_mars_background",
+    "path": "sprites/spr_mars_background/spr_mars_background.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
