@@ -3,7 +3,7 @@
     "name": "spr_crater",
     "path": "sprites/spr_crater/spr_crater.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

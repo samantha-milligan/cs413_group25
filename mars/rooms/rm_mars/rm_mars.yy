@@ -35,6 +35,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":304.0,"resourceVersion":"1.0","name":"inst_10468B63","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":912.0,"y":304.0,"resourceVersion":"1.0","name":"inst_310B3B93","tags":[],"resourceType":"GMRInstance",},
 <<<<<<< HEAD
+<<<<<<< HEAD
       ],"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Crater","tags":[],"resourceType":"GMRInstanceLayer",},
 =======
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_crater","path":"objects/obj_crater/obj_crater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":304.0,"resourceVersion":"1.0","name":"inst_5563843C","tags":[],"resourceType":"GMRInstance",},
@@ -46,6 +47,9 @@
 =======
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Crater","tags":[],"resourceType":"GMRInstanceLayer",},
 >>>>>>> parent of e0465a0 (Update rm_mars.yy)
+=======
+      ],"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Crater","tags":[],"resourceType":"GMRInstanceLayer",},
+>>>>>>> parent of 2b4bee6 (updates)
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_alien1","path":"objects/obj_alien1/obj_alien1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":112.0,"y":144.0,"resourceVersion":"1.0","name":"inst_15E4DE68","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_alien1","path":"objects/obj_alien1/obj_alien1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":96.0,"resourceVersion":"1.0","name":"inst_8F7478F","tags":[],"resourceType":"GMRInstance",},
